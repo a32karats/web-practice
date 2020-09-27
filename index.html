@@ -12,6 +12,7 @@
   <header>
     <!--ヘッダー-->
     <div class="flex between">
+    <!-- こちらh1の方が良いです -->
     <h1 class="header-logo">estra inc.</h1>
     <nav class="header-nav">
       <ul>
@@ -27,6 +28,8 @@
   </header>
   <main>
     <!--トップ画面-->
+    <!-- メインビジュアルやキービジュアルという名称の方がより良いです -->
+    <!-- class名は具体的な方が良いです -->
    <div class="mv">
      <div class="eyecatch">
         <p class="title1">機械ではできない仕事を</p>
@@ -45,10 +48,13 @@
    <div class="mission">
     <div class="mission-back">
      <div class="mission-details">
+       <!-- 見出しタグは順番に記述する必要があるのでこちらはh2の方が良いです -->
        <h2>お客様のために進化する成長企業であり続ける</h2>
        <p>顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。企業が現在直面している「勝ち残るため」の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供いたします。</p>
     </div>
+      <!-- button要素を使えると尚良い -->
        <button class="mission-button" type="submit">ミッション詳細</button>
+      <!-- orangeでも良いですが、mission-imgしておくと後に画像が変更されても対応できるので良いです -->
        <div class="mission-img">
          <img src="img/mission-img.jpg">
        </div>
@@ -56,6 +62,7 @@
    </div>
     <!--サービス画面-->
 　　<div class="service">
+    <!-- こちらはh2が良いです -->
      <h2 class="service-title">service</h2>
    <div class="web-production1">
      <div class="camera-set">
@@ -64,6 +71,7 @@
          <h4>web制作事業</h4>
          <p class="camera-p1">コーチングのミッション</p>
          <p class="camera-p2">ユーザーが求める物を分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容、ブライダル、飲食店まで多種多様な業種の製作実績があります。</p>
+         <!-- button要素を使えると尚良い -->
          <button class="service-button1" type="submit">サービス詳細</button>
       </div>
      </div>
@@ -73,6 +81,7 @@
          <h4>web制作事業</h4>
          <p class="fire-p1">コーチングのミッション</p>
          <p class="fire-p2">ユーザーが求める物を分析し、ユーザビリティを備えた最適なサイトを提供。建設業から美容、ブライダル、飲食店まで多種多様な業種の製作実績があります。</p>
+         <!-- button要素を使えると尚良い -->
          <button class="service-button2" type="submit">サービス詳細</button>
        </div>
      </div>
@@ -83,6 +92,7 @@
   <div class="company-recruit">
     <div class="company">
       <img src="img/company.jpeg" class="company-img">
+      <!-- titleとsubtitleなどに分けると良いです -->
       <p class="company-title1">company</p>
       <p class="company-subtitle">会社概要</p>
     </div>
@@ -91,6 +101,7 @@
       <p class="recruit-title1">recruit</p>
       <p class="recruit-subtitle">採用情報</p>
     </div>
+    <!-- class名は小文字に統一した方が良いです -->
     <div class="faq">
       <p class="faq-title1">FAQ</p>
       <p class="faq-title2">良くある質問</p>
@@ -100,10 +111,12 @@
  <!--コンタクト画面-->
 　<div class="contact">
     <div class="contact-content">
+      <!-- h2の方が良いです -->
       <h2 class="contact-title">contact</h2>
       <p class="contact-subtitle">お問い合わせ</p>
       <p class="contact-emphasis">お気軽にお問い合わせください。</p>
       <p class="contact-description">資料請求・お問い合わせなどなんでも気軽にお問い合わせください。お仕事のご連絡もお問い合わせページに飛んでいただいて、入力フォームにご記入お願いいたします。</p>
+      <!-- こちらボタン要素の方が良いです -->
       <button class="contact-button" type="submit">お問い合わせへ</button>
     </div>
 </div>
